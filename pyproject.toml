@@ -1,0 +1,15 @@
+[project]
+name = "cyber-crime-api"
+version = "0.1.0"
+description = "FastAPI application for cyber crime IPC sections with vector search"
+authors = ["Your Name <you@example.com>"]
+requires-python = ">=3.10"
+dependencies = [
+    "fastapi",
+    "uvicorn",
+    "chromadb",
+    "sentence-transformers",
+    "pandas",
+    "python-multipart",
+    "pydantic"
+]
